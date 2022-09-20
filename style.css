@@ -1,0 +1,335 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=DynaPuff:wght@400;600&display=swap');
+
+
+.header{
+    background: rgba(0,0,0,0.4)url(https://gumlet.assettype.com/afkgaming%2Fimport%2Fmedia%2Fimages%2F31218-414c6569e2271035d9bb9ce544742b37.jpeg?auto=format%2Ccompress);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* backface-visibility: hidden; */
+    background-blend-mode: darken;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.container{
+    width: 88vw;
+    height: 8vh;
+    display: flex;
+    background: url(https://media.istockphoto.com/photos/abstract-green-orange-color-hexagon-background-vector-geometric-with-picture-id985617728?k=6&m=985617728&s=170667a&w=0&h=9LzWQRDC2MmII3cybLYTRngfQsfgJskzLDS4pDBql6s=);
+    list-style-type: none;
+    padding: 4vh 5vw;
+    /* background-color: black; */
+    
+    
+}
+.logo{
+    width: 11vw;
+    height: 15vh;
+    margin-top: -3vh;
+    margin-left: 0vw;
+    
+}
+/* .nav-bar{
+    display: flex;
+    /* flex-direction: row; 
+    /* padding: 1vh; 
+    margin-left: 40%;
+    cursor: pointer;
+    font-size: 2.15vw ;
+    
+} */
+.nav-bar{
+    /* background-color: rgb(60, 255, 0); */
+    width: 62vw;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.95vw;
+    color: rgb(250, 250, 250);
+    font-family: DynaPuff;
+    border-width: 0.2vw;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 1.5 vh;
+    padding-top: 3vh;
+    margin-left: 13vw;
+}
+.nav-bar1:hover{
+    color: black;
+    border-bottom: 2.5px solid rgb(0, 0, 0);
+}
+
+
+
+.shop-btn{
+    /* background-color: aqua; */
+    width: 11vw;
+    height: 6vh;
+    font-size: 1.5vw;
+    border-width: 0.2vw;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: -0.5vh;
+    font-family: DynaPuff;
+}
+
+.hr1{
+    background-color: black;
+    height: 0.8vh;
+    /* margin-top: 5vh; */
+}
+
+.mainbody{
+    display: flex;
+    justify-self: space-between;
+    color: aliceblue;
+    /* background-color: rgb(242, 73, 0); */
+    
+}
+
+.mainbody .mainbody-left{
+    margin-top: 5vh;
+    /* background-color: rgb(46, 253, 0); */
+    height: 50vh;
+    width: 50vw;
+}
+
+.mainbody .mainbody-center{
+    
+    font-family: Prompt;
+    font-size: 1.25vw;
+    margin-top: 5vh;
+    /* background-color: rgb(14, 227, 18); */
+    height: 50vh;
+    width: 50vw;
+    padding: 5%;
+    padding-top: 2%;
+}
+
+.mainbody .mainbody-right{
+    margin-top: 5vh;
+    /* background-color: rgb(255, 89, 0); */
+    height: 50vh;
+    width: 50vw;
+}
+.TeamLogo{
+    height: 35vh;
+    width: 23vw;
+    margin: 12%;
+}
+.soulx8bit{
+    font-family: dynapuff;
+    margin-left: 9.5vw;
+
+}
+.s8ul{
+    font-family: dynapuff;
+    font-size: 3.5vw;
+    align-self: start;
+    margin:20px;
+
+    
+}
+
+
+.hr2{
+    background-color: black;
+    height: 0.7vh;
+    margin-top: 3%;
+    width: 65vh;
+}
+/* .login{
+    font-size: 3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10vw;
+}
+.login-details{
+    margin-top: 10vh;
+    padding-top: 2vh;
+    width: 30vw;
+    height: 55vh;
+    background-color: rgb(99, 90, 102);
+    margin-left: 60vw;
+    border-radius: 6%;
+}
+
+.login-details .credentials{
+    width: 50vw;
+    margin-left: 0vw;
+    padding-left: 2.5vw;
+    font-family: Prompt;
+    display:block;
+    list-style: none;
+    padding-top: 2vh;
+    color: rgb(0, 255, 255);
+    
+}
+.credentials input{
+    color: rgb(255, 255, 255);
+    
+    font-size: 2vw;
+    border: none;
+    width: 25vw;
+    margin-left: 0vw;
+    padding-top: 3vh;
+    height: 5vh;
+    display: flex;
+    border-bottom: 2px solid rgb(254, 254, 254);
+    padding-bottom: 3vh;
+    background: transparent;
+    outline: none;
+} */
+.sec1{
+    display: flex;
+   
+}
+html,body {
+    position: relative;
+    height: 100%;
+  }
+
+  .swiper {
+    margin-top: 50px;
+    width: 88%;
+    height: 65%;
+  }
+
+  .swiper-slide {
+    background: rgb(0, 0, 0);
+    border-radius: 5% ;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .cards{
+    background-color: aliceblue;
+    border-radius: 5% ;
+    height: 61vh;
+    width:31vw;
+    
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+  
+  .swiper-slide .pfp {
+    display: block;
+    width: 55%;
+    height: 55%;
+    object-fit: cover;
+    margin-top: 5vh;
+    border-radius: 50%;
+    border: 6px solid rgb(255, 98, 0);
+  }
+  
+  .cc-name{
+    font-size: 120%;
+    margin:20px;
+  }
+  .posi{
+    margin-top: 0%;
+    font-size: 20px;
+  }
+.more-btn{
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+    height: 5vh;
+    width: 10vw;
+    font-family: prompt;
+    font-size: large;
+    margin-left: 44vw;
+    border-radius: 10px;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+.esp{
+    margin: 5%;
+}
+
+.esp .bgmi{
+    background-color: black;
+    height: 25vh;
+    width: 25vw;
+    /* margin: 5%; */
+}
+.esp .h3{
+    text-align: center;
+    /* font-size: 50px; */
+
+}
+
+
+
+.footer {
+
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    padding-top: 10vh;
+}
+.foot-logo{
+    height: 15vh;
+    width: 15vh;
+}
+
+.footer-left{
+    /* text-align: left; */
+    padding-left: 50px;
+    
+}
+.footer-center{
+    font-family: dynapuff;
+}
+.fcl1{
+    font-family: prompt;
+    width: 40vw;
+    height: 5vh;
+    font-size: xx-large;
+    
+    list-style-type: none;
+    
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-right{
+    font-family: dynapuff;
+    width: -1vw;
+    height: 15vh;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
